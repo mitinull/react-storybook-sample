@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #3b82f6; /* Default (Blue) */
+  --color-secondary: #d1d5db; /* Default (Gray) */
+}
+
+[data-theme='solar-pancake'] {
+  --color-primary: #f59e0b; /* Sunny Orange */
+  --color-secondary: #fef3c7; /* Light Yellow */
+}
+
+[data-theme='moonlit-blueberry'] {
+  --color-primary: #6366f1; /* Cool Indigo */
+  --color-secondary: #c7d2fe; /* Soft Blue */
+}
+
+[data-theme='mystic-mint'] {
+  --color-primary: #10b981; /* Mint Green */
+  --color-secondary: #d1fae5; /* Pale Mint */
+}
